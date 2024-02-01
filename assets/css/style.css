@@ -7,7 +7,8 @@ border:none;
 body{ 
     font-family: lato, sans-serif;
     font-weight:300;
-    color:#3a3a3a
+    color:#FAF8F8;
+    background: #110F0E
 }
 
 /*header and logo*/
@@ -16,7 +17,7 @@ h1,h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#252525
+    color:#49423a
 }
 
 #logo {
@@ -62,6 +63,8 @@ h1,h2 {
     width: 100%;
     background: url('../images/ogk.logo.jpg') no-repeat center center;
 }
+
+/*about us section*/
 #about-us {
     margin-left:30px
 }
@@ -76,8 +79,26 @@ h1,h2 {
     width: 100%;
     background: url('../images/banner.jpg') no-repeat center center;
    
-}
+/*opening times*/
 
-#opening-times {
-    margin-left: 30px;
+ #opening-times h2 h3{
+    
+    font-size: 130%;
+        font-family: Oswald, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    
+        width: 300px;
+        height: 200px;
+    
+        padding-top: 40px;
+        padding-left: 10px;
+    
+        background-color: #FAF8F8;
+    
+        bottom: 30px;
+        right: 150px;
+    
+        position: absolute;
 }
+ }
