@@ -21,7 +21,9 @@ h1,h2 {
 
 #logo {
     float:left;
-    font-size:280%
+    font-size:280%;
+    letter-spacing: 4px;
+    margin-left: 30px;
 }
 
 /*navigation links*/
@@ -59,4 +61,23 @@ h1,h2 {
     height: 600px;
     width: 100%;
     background: url('../images/ogk.logo.jpg') no-repeat center center;
+}
+#about-us {
+    margin-left:30px
+}
+    
+
+
+#artists
+{padding-left:20px;}
+
+ #banner-image{
+   height: 600px;
+    width: 100%;
+    background: url('../images/banner.jpg') no-repeat center center;
+   
+}
+
+#opening-times {
+    margin-left: 30px;
 }
