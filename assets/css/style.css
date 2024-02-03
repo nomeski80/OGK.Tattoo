@@ -111,6 +111,10 @@ nav {
     font-size: 2rem;
 }
 /*main content*/
+
+main {
+    margin-top: 47px;
+}
 /* hero image */
 
 #hero-image {
@@ -155,3 +159,30 @@ nav {
     footer {
         background-color: #49423a;
     }
+
+
+    /*media query for tablets and screens 768px and up*/
+    @media screen and (min-width:768px;) {
+        /*header*/
+        nav {
+display:block;
+position:relative;
+box-shadow: none;
+width:fit-content; 
+padding-right: 1rem;      }
+
+#menu {
+    display:flex;
+}
+
+#menu>li {
+    padding-left: 1rem;
+}
+.nav-toggle-label {
+    display: none;
+}
+    } 
+        
+
+                
+    
