@@ -157,7 +157,13 @@ main {
  
     /*footer*/
     footer {
-        background-color: #49423a;
+        background-color: white;
+    }
+
+    #social-networks{
+        flex:1 0 auto;
+        color:#3a3a3a;
+        font-size: 150%;
     }
 
 
