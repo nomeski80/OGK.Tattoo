@@ -32,8 +32,14 @@ header {
     position:fixed;
     z-index: 99;
     width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1,h2 {
@@ -67,6 +73,7 @@ h1,h2 {
     float:right;
     list-style-type: none;
     margin-right:30px;
+    margin-bottom: 1em;
 }
 
 #menu a {
@@ -80,7 +87,29 @@ h1,h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+/*Nav bar styles with drop down toggle*/
+nav {
+    position: absolute;
+    background-color: #49423a;
+    width:100%;
+    left: 0;
+    padding:0%;
+    display:none;
+    top:100%;
+    
+    
+}
+/*nav toggle*/
+#nav-toggle:checked~nav {
+    display:block;
+}
 
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label { 
+    font-size: 2rem;
+}
 /*main content*/
 /* hero image */
 
