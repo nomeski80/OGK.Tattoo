@@ -6,11 +6,19 @@ padding:0;
 box-sizing: border-box;
 
 }
+/*general styles*/
 body{ 
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+
+    /*geberal project styles*/
     font-family: lato, sans-serif;
     font-weight:300;
+    background-color: #110F0E;
     color:#FAF8F8;
-    background: #110F0E
+/*Make main element take up the whole space to ush the footer down*/
+    flex: 1 0 auto;
 }
 
 /*header and logo*/
@@ -19,7 +27,7 @@ h1,h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#49423a
+    color:#FAF8F8
 }
 
 #logo {
