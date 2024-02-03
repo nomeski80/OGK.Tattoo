@@ -1,3 +1,7 @@
+/*google fonts inport*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Ubuntu:ital@1&display=swap');
+
+
 /*asterix wildcard selector to override default styles added by the browser*/
 
 * {
@@ -13,7 +17,7 @@ body{
     flex-direction: column;
 
     /*geberal project styles*/
-    font-family: lato, sans-serif;
+    font-family: quicksand, sans-serif;
     font-weight:300;
     background-color: #110F0E;
     color:#FAF8F8;
@@ -24,7 +28,7 @@ body{
 /*header and logo*/
 
 h1,h2 {
-    font-family: oswald, sans-serif;
+    font-family: ubuntu, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color:#FAF8F8
@@ -36,6 +40,7 @@ h1,h2 {
     letter-spacing: 4px;
     margin-left: 30px;
     color: #FAF8F8;
+    font-family: quicksand, sans-serif;
 }
 
 /*navigation links*/
