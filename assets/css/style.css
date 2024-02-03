@@ -161,9 +161,16 @@ main {
     }
 
     #social-networks{
-        flex:1 0 auto;
-        color:#3a3a3a;
-        font-size: 150%;
+        text-align: centre;
+        padding: 20px 0;
+        display:flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+
+    #social-networks i {
+        font-size:160%;
+        color:#49423a;
     }
 
 
