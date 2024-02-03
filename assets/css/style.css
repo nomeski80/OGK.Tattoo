@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@300&display=swap');
+/*asterix wildcard selector to override default styles added by the browser*/
+
 * {
 margin:0;
 padding:0;
-border:none;
+box-sizing: border-box;
+
 }
 body{ 
     font-family: lato, sans-serif;
@@ -25,6 +27,7 @@ h1,h2 {
     font-size:280%;
     letter-spacing: 4px;
     margin-left: 30px;
+    color: #FAF8F8;
 }
 
 /*navigation links*/
@@ -74,14 +77,9 @@ h1,h2 {
 #artists
 {padding-left:20px;}
 
- #banner-image{
-   height: 600px;
-    width: 100%;
-    background: url('../images/banner.jpg') no-repeat center center;
    
 /*opening times*/
-
- #opening-times h2 h3{
+ #opening{
     
     font-size: 130%;
         font-family: Oswald, sans-serif;
@@ -94,11 +92,14 @@ h1,h2 {
         padding-top: 40px;
         padding-left: 10px;
     
-        background-color: #FAF8F8;
+        background-color: #49423a;
     
         bottom: 30px;
         right: 150px;
     
-        position: absolute;
-}
- }
+        position: absolute;}
+ 
+    /*footer*/
+    footer {
+        background-color: #49423a;
+    }
