@@ -130,6 +130,11 @@ main {
             padding-left: 30px;
             padding-right: 30px;
         }
+
+        /*gallery*/
+        #photos img {
+            width:100%;
+        }
     /*footer*/
     footer {
         background-color: white;
