@@ -124,6 +124,11 @@ main {
            background: url(../images/ogk.logo.jpg) no-repeat center center;
         }
  
+        #welcome {
+            font-family: quicksand;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
     /*footer*/
     footer {
         background-color: white;
