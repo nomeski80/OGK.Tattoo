@@ -123,6 +123,11 @@ main {
         
 }
   
+.flex-container
+{
+    display: flex;
+        flex-direction: column;
+}
 
         #ogk-image {
             height: 600px;
