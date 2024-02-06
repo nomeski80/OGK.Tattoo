@@ -60,26 +60,28 @@ h1,h2 {
 
 /*navigation links*/
 #menu {
-    font-size: 150%;
+    font-size: 110%;
     letter-spacing: 4px;
 
 }
 
-#menu, #logo {
-    line-height: 75px;
-}
-
-#menu li{
-    float:right;
+#menu li {
+    float: right;
     list-style-type: none;
-    margin-right:30px;
-    margin-bottom: 5em;
+    margin-right: 30px;
+    
 }
 
 #menu a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
+#menu, #logo {
+    line-height: 75px;
+}
+
+
+
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
 }
@@ -90,7 +92,7 @@ h1,h2 {
 /*Nav bar styles with drop down toggle*/
 nav {
     position: absolute;
-    background-color: #49423a;
+   
    
     left: 0;
     padding:0%;
@@ -116,19 +118,25 @@ nav {
 main {
         /* Make main element take up any surplus space to push footer down */
             flex: 1 0 auto;
-            margin-top: 47px;
+            margin-top: 75px;
+          
+        
 }
-    
+  
+
         #ogk-image {
             height: 600px;
             width: 100%;
            background: url(../images/ogk.logo.jpg) no-repeat center center;
+           border-radius: 50px;
         }
  
         #welcome {
+            margin-top: 100px;
+            margin-right: 75px;
             font-family: quicksand;
-            padding-left: 30px;
-            padding-right: 30px;
+            width:600px;
+            height:600px;
         }
 
         /*gallery*/
