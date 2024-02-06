@@ -136,6 +136,13 @@ main {
             width:100%;
             line-height: 1em;
         }
+
+                  /*Contact page*/
+#contact {
+    border-radius: 20px;
+    background-color: #49423a;
+}
+
     /*footer*/
     footer {
         background-color: white;
@@ -193,7 +200,13 @@ padding-right: 1rem;      }
 
     } 
         
- /*media query for pc screens 992px and up*/
+
+  
+
+
+
+
+    /*media query for pc screens 992px and up*/
  @media screen and (min-width:992px) {
 #photos
 column-count: 4;
