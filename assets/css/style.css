@@ -91,7 +91,7 @@ h1,h2 {
 nav {
     position: absolute;
     background-color: #49423a;
-    width:100%;
+   
     left: 0;
     padding:0%;
     display:none;
@@ -137,11 +137,31 @@ main {
             line-height: 1em;
         }
 
-                  /*Contact page*/
-#contact {
+        /*Contact page*/
+        main {
+                    display:flex;
+                    flex:column;
+
+                  }
+
+        #get_in_touch h1 {
+
+                    padding-top: 50px;
+                  }
+#contact #contact_us {
+    padding:50px;
     border-radius: 20px;
-    background-color: #49423a;
+    background-color:#3a493a
+    width: 500px;
+    hight:700px; 
+    
 }
+#send {
+    border-radius: 4px;
+    background-color: hsl(260, 73%, 36%)
+    color: white;
+    padding: 15px;
+ }
 
     /*footer*/
     footer {
