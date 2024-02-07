@@ -157,10 +157,16 @@ main {
                 }
         
         /*gallery*/
-        #gallery {
-            width:100%;
-            line-height: 1em;
-        }
+       
+        #photos {
+                clear: both;
+                line-height: 0;
+                column-count: 1;
+                column-gap: 0;
+            }
+                #photos>img {
+                    width: 100%;
+                }
 
         /*Contact page*/
         main {
@@ -210,7 +216,8 @@ main {
          @media (min-width:576px) {
 #gallery {
     column-count: 2;
-    column-gap: 0;
+    
+
 }
          }
 
@@ -253,9 +260,9 @@ padding-right: 1rem;      }
 
     /*media query for pc screens 992px and up*/
  @media screen and (min-width:992px) {
-#photos
+#photos {
 column-count: 4;
-
+}
  }
                 
     
