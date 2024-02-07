@@ -1,4 +1,4 @@
-#OGK Tattoos#
+# OGK Tattoos
 ## Welcome to Project 1
 This is my first website for my Code Institute Full stack developer course. I have decided to create a website with its main purpose to promote a friend's tattoo studio. Here is a link to the deployed site [https://nomeski80.github.io/OGK.Tattoo/index.html]. 
 
@@ -61,5 +61,7 @@ When adding the other pages, I had to delete a lot of the content that was alrea
 
 I had forgotten to change the toggle from X to bars icon  in the other pages. Adjustment made.
 Media query for gallery is also not working, watched youtube clip to help my understanding of media queries and their format but still not working yet, making the site unresponsive for different devices. After, I took a break for the night when I check again the next day the media query did work. However the images did not look good and were not centred or in the correct places shoing the main part of the image. 
+
+When saving the images from instagram they saved as a mhtml files. So they didn't show up properly on my site. To solve this problem I went back into my folder on my laptop and saved the images again as JPEG files. 
 
 

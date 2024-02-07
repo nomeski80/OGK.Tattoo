@@ -141,9 +141,10 @@ main {
         #welcome {
             margin: 15px;
             padding:15px;
+            text-align: centre;
         
             font-family: quicksand;
-            width:800px;
+           
             height:300px;
         }
 
