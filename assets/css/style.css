@@ -140,7 +140,7 @@ main {
  
         #welcome {
             margin: 15px;
-            padding:15px;
+            padding: 20, 20, 20;
             text-align: centre;
         
             font-family: quicksand;
@@ -148,10 +148,11 @@ main {
             height:300px;
         }
 #opening {
+    position: absolute;
     margin: 15px;
         padding: 15px;
         text-align: centre;
-
+float:right;
                 table,
                 th,
                 td {
@@ -163,6 +164,7 @@ main {
         /*gallery*/
        
         #photos {
+            padding-top: 5rem;
                 clear: both;
                 line-height: 0;
                 column-count: 1;
@@ -242,6 +244,7 @@ padding-right: 1rem;      }
 }
 
 #menu>li {
+   
     padding-left: 1rem;
 }
 .nav-toggle-label {
