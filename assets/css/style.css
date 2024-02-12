@@ -160,18 +160,18 @@ main {
 #opening {
     
     width:300px;
-    height:200px;
         padding: 15px;
+        float: right;
 }
-float:right;
-                table,
+table,
                 th,
                 td {
-                    width:100%
+                    padding:15px;
+                    width:100%;
                     border: 1px solid black;
-                    margin:
+                
                 }
-                }
+                
         /*gallery*/
        
         #photos {
