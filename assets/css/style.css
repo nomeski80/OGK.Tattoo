@@ -159,9 +159,8 @@ main {
                 
 #opening {
     
-    width:300px;
+    width:600px;
         padding: 15px;
-        float: right;
 }
 table,
                 th,
@@ -169,7 +168,6 @@ table,
                     padding:15px;
                     width:100%;
                     border: 1px solid black;
-                
                 }
                 
         /*gallery*/
@@ -231,7 +229,7 @@ table,
 
          /*media query for large or landscape phones 576px and up*/
          @media (min-width:576px) {
-#gallery {
+#photos {
     column-count: 2;
     
 
@@ -263,7 +261,7 @@ padding-right: 1rem;      }
 }
 
 
-#gallery {
+#photos {
     column-count: 3;
 
 }
