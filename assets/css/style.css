@@ -141,11 +141,7 @@ main {
  
         #welcome {
             margin: 15px;
-            padding: 20, 20, 20;
-            text-align: centre;
-        
             font-family: quicksand;
-           
             height:300px;
         }
                 #jack_tattooing
@@ -187,7 +183,7 @@ table,
         /*Contact page*/
         main {
                     display:flex;
-                    flex:column;
+                    flex:auto;
 
                   }
 
@@ -202,7 +198,7 @@ table,
 #contact #contact_us {
     padding:50px;
     border-radius: 20px;
-    background-color:#3a493a
+    background-color:#3a3a3a;
     width: 500px;
     
     
@@ -220,7 +216,7 @@ table,
     }
 
     #social-networks{
-        text-align: centre;
+       
         padding: 20px 0;
         display:flex;
         justify-content: space-evenly;
