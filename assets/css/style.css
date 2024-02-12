@@ -147,11 +147,22 @@ main {
            
             height:300px;
         }
+                #jack_tattooing
+               {
+                 padding-top: 100px;
+            border: 15px;
+            height: 600px;
+            width: 100%;
+           background: url(../images/jack.tattooing.jpeg) no-repeat center center;
+           border-radius: 50px;
+               }
+                
 #opening {
-    position: absolute;
-    margin: 15px;
+    
+    width:300px;
+    height:200px;
         padding: 15px;
-        text-align: centre;
+}
 float:right;
                 table,
                 th,
