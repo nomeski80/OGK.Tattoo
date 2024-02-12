@@ -64,4 +64,6 @@ Media query for gallery is also not working, watched youtube clip to help my und
 
 When saving the images from instagram they saved as a mhtml files. So they didn't show up properly on my site. To solve this problem I went back into my folder on my laptop and saved the images again as JPEG files. 
 
+To make the gallery images responsive I wanted them to adjust the column count from 1-4 depending on the size of the screen. It was stuck between 1 and 4 for a while but then I noticed I had used the wrong ID for the 2 & 3 so I altered it and now it works. 
+
 
