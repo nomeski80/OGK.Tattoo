@@ -64,6 +64,10 @@ Media query for gallery is also not working, watched youtube clip to help my und
 
 When saving the images from instagram they saved as a mhtml files. So they didn't show up properly on my site. To solve this problem I went back into my folder on my laptop and saved the images again as JPEG files. 
 
+
+12/02/24
 To make the gallery images responsive I wanted them to adjust the column count from 1-4 depending on the size of the screen. It was stuck between 1 and 4 for a while but then I noticed I had used the wrong ID for the 2 & 3 so I altered it and now it works. 
+
+When scrolling down the page the text from the header would overlap the content in the page. I added a background colour for the header and this had helped to make it clean and avoid the messy overlap. 
 
 

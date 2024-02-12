@@ -205,7 +205,7 @@ table,
 }
 #send {
     border-radius: 4px;
-    background-color: hsl(260, 73%, 36%)
+    background-color: #3a3a3a;
     color: white;
     padding: 15px;
  }
