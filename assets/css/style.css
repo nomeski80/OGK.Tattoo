@@ -195,6 +195,10 @@ table,
 
                     padding-top: 50px;
                   }
+                  #map {
+                    padding:5%;
+                
+                  }
 #contact #contact_us {
     padding:50px;
     border-radius: 20px;
@@ -247,7 +251,7 @@ display:block;
 position:relative;
 box-shadow: none;
 width:fit-content; 
-padding-right: 1rem;      }
+padding-right: 1rem;  }
 
 #menu {
     display:flex;
@@ -255,7 +259,7 @@ padding-right: 1rem;      }
 
 #menu>li {
    
-    padding-left: 1rem;
+    padding-left: 10rem;
 }
 .nav-toggle-label {
     display: none;
