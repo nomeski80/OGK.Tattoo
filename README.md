@@ -56,6 +56,7 @@ Menu items do not stay untoggled when on the bigger screens.
 
 Media query says display:block it still works as a toggle.
 The bars for the menu stick to the logo and I can not yet move them to the right. I have tried dev tools to play with padding and flex. I have tried right:0. Can not seem to get it to work.
+<img src="assets/images/Screenshot 2024-02-12 8.19.16 AM.png" alt=" screen shot of the nav bar">
 
 When adding the other pages, I had to delete a lot of the content that was already there so I could copy over the basic structure. This wasn't a big issue as the content was all over lapping and not clear. So starting that section again made more sense than fiddling around.
 <img src="assets/images/Screenshot 2024-02-03 2.38.41 PM.png" alt= "screenshot of projects with overlaps">
@@ -63,6 +64,7 @@ When adding the other pages, I had to delete a lot of the content that was alrea
 I had forgotten to change the toggle from X to bars icon  in the other pages. Adjustment made.
 
 Media query for gallery is also not working, watched youtube clip to help my understanding of media queries and their format but still not working yet, making the site unresponsive for different devices. After, I took a break for the night when I check again the next day the media query did work. However the images did not look good and were not centred or in the correct places or showing the main part of the image.
+ <img src="assets/images/Screenshot 2024-02-07 9.27.34 PM.png" alt=" screen shot of the gallery images">
 
 When saving the images from instagram they saved as a MHTML files. So they did not show up properly on my site. To solve this problem I went back into my folder on my laptop and saved the images again as JPEG files. 
 
