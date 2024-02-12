@@ -44,7 +44,7 @@ I started off the project relying heavily on the tutorials from the Love Running
 
 Structure for this README doc was taken from readme-examples [https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#user-experience-ux]
 
-All art work and images have come from Jack Gardener the tattoo and grafiti aritst as his own work. [https://www.instagram.com/ogk.tattoos/] most from his public page and some sent directly to me from him. 
+All art work and images have come from Jack the tattoo and grafiti aritst as his own work. [https://www.instagram.com/ogk.tattoos/] most from his public page and some sent directly to me from him. 
 
 ## screen shots from stages throughout the project
 
@@ -58,9 +58,11 @@ Media query says display:block it still works as a toggle.
 The bars for the menu stick to the logo and I can not yet move them to the right. I have tried dev tools to play with padding and flex. I have tried right:0. Can not seem to get it to work.
 
 When adding the other pages, I had to delete a lot of the content that was already there so I could copy over the basic structure. This wasn't a big issue as the content was all over lapping and not clear. So starting that section again made more sense than fiddling around.
+<img src="assets/images/Screenshot 2024-02-03 2.38.41 PM.png" alt= "screenshot of projects with overlaps">
 
 I had forgotten to change the toggle from X to bars icon  in the other pages. Adjustment made.
-Media query for gallery is also not working, watched youtube clip to help my understanding of media queries and their format but still not working yet, making the site unresponsive for different devices. After, I took a break for the night when I check again the next day the media query did work. However the images did not look good and were not centred or in the correct places shoing the main part of the image.
+
+Media query for gallery is also not working, watched youtube clip to help my understanding of media queries and their format but still not working yet, making the site unresponsive for different devices. After, I took a break for the night when I check again the next day the media query did work. However the images did not look good and were not centred or in the correct places or showing the main part of the image.
 
 When saving the images from instagram they saved as a MHTML files. So they did not show up properly on my site. To solve this problem I went back into my folder on my laptop and saved the images again as JPEG files. 
 
