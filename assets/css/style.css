@@ -173,7 +173,7 @@ table,
 th,
 td {
     padding: 15px;
-    width: 100%;
+    width: 80%;
     border: 1px solid black;
 }
 
@@ -204,15 +204,15 @@ main {
 }
 
 #map {
-    padding: 5%;
+    
 
 }
 
 #contact #contact_us {
     padding: 50px;
     border-radius: 20px;
-    background-color: #3a3a3a;
-    width: 500px;
+    
+   
 
 
 }
@@ -267,6 +267,7 @@ footer {
 
     #menu {
         display: flex;
+        background-color: #3a3a3a;
     }
 
    
