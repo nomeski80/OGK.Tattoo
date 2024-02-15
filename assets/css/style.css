@@ -141,21 +141,19 @@ main {
 }
 
 #welcome {
-    padding:5px;
+    padding: 5px;
     margin: 15px;
     font-family: quicksand;
-    height: 300px;
     letter-spacing: 2px;
     line-height: 30px;
 }
 
 #jack_tattooing {
-   padding-top: 100px;
+    padding-top: 100px;
     border: 15px;
     height: 600px;
     width: 100%;
-    background: url(../images/jack.tattooing.webp) no-repeat center center;
-   
+    justify-content: center;
 }
 
 #opening {
@@ -191,40 +189,40 @@ main {
     flex: auto;
 }
 
-#get_in_touch h1, h3 {
+#get_in_touch h1,
+h3 {
 
     padding-top: 2rem;
     padding-left: 2rem;
 }
 
-#map {
-  
-}
+#map {}
 
 
 /* Style inputs for the questions form */
 input[type=text],
 select,
-textarea, 
- {
-    width:fit-content;
-    height: 25px;
-    padding: 12px;
-    border: 1px solid #fafafa;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin: 5px 0 20px 0;
-    padding: 0 5px;
+textarea,
+{
+width: fit-content;
+height: 25px;
+padding: 12px;
+border: 1px solid #fafafa;
+border-radius: 4px;
+box-sizing: border-box;
+margin: 5px 0 20px 0;
+padding: 0 5px;
 }
 
 
 
 label {
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
 /* Style for the submit button  */
-#send, input[type=submit] {
+#send,
+input[type=submit] {
     background-color: #04AA6D;
     color: #49423a;
     padding: 12px 20px;
@@ -259,48 +257,48 @@ footer {
 
 /*media query for phones 375px and up*/
 @media screen and (min-width:375px) {
-#photos {
+    #photos {
         column-count: 1;
-}
-
-/*media query for large or landscape phones 576px and up*/
-@me(min-width:576px) {
-    #photos {
-        column-count: 2;
     }
 
-}
+    /*media query for large or landscape phones 576px and up*/
+    @me(min-width:576px) {
+        #photos {
+            column-count: 2;
+        }
 
-/*media query for tablets and screens 768px and up*/
-@media screen and (min-width:768px) {
-
-    /*header*/
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
     }
 
-    #menu {
-        display: flex;
-        background-color: #3a3a3a;
+    /*media query for tablets and screens 768px and up*/
+    @media screen and (min-width:768px) {
+
+        /*header*/
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+        }
+
+        #menu {
+            display: flex;
+            background-color: #3a3a3a;
+        }
+
+        .nav-toggle-label {
+            display: none;
+        }
+
+        #photos {
+            column-count: 3;
+        }
+
     }
 
-    .nav-toggle-label {
-        display: none;
+    /*media query for pc screens 1024px and up*/
+    @media screen and (min-width:1024px) {
+        #photos {
+            column-count: 4;
+        }
     }
-
-    #photos {
-        column-count: 3;
-    }
-
-}
-
-/*media query for pc screens 1024px and up*/
-@media screen and (min-width:1024px) {
-    #photos {
-        column-count: 4;
-    }
-}
