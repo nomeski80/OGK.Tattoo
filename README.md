@@ -4,13 +4,13 @@ This is my first website for my Code Institute Full stack developer course. I ha
 
 The OGK Tattoo website is a 3 page responsive site that users will be able to view from all media devices. The purpose of the site is to promote the tattoo shop and increase the owner’s online presence and artistic portfolio. The website user will be able to gain an idea as to the ethos of the shop and the artist's work. They will also be able to sign up to be added to the shop's mailing and promotions list. 
 Homepage
-<img src="assets/images/Screenshot 2024-02-12 6.05.05 PM.png" alt="screenshot of the homepage">
+<img src="assets/images/homescreenss.webp" alt="screenshot of the homepage">
 
 Get in touch page
-<img src="assets/images/Screenshot 2024-02-12 6.10.30 PM.png" alt="screenshot of get intouch page">
+<img src="assets/images/contactpagess.webp" alt="screenshot of get intouch page">
 
 Gallery
-<img src="assets/images/Screenshot 2024-02-12 6.09.39 PM.png" alt="screenshot of gallery">
+<img src="assets/images/galleryss.webp" alt="screenshot of gallery">
 
 ## User stories
 Tattoos are big commitments and some people will want to do a lot of research before they fully commit. For this reason the website needs to look clean and simple. It should be easy to navigate and to quickly be able to gain the information needed. 
