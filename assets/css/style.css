@@ -151,9 +151,9 @@ main {
 #jack_tattooing {
     padding-top: 100px;
     border: 15px;
-    height: 600px;
-    width: 100%;
-    justify-content: center;
+    height: 400px;
+    width: 250px;
+
 }
 
 #opening {
@@ -267,6 +267,13 @@ footer {
             column-count: 2;
         }
 
+        #jack_tattooing {
+            padding-top: 100px;
+            border: 15px;
+            height: 450px;
+            width: 300px;
+
+        }
     }
 
     /*media query for tablets and screens 768px and up*/
@@ -300,5 +307,13 @@ footer {
     @media screen and (min-width:1024px) {
         #photos {
             column-count: 4;
+        }
+
+        #jack_tattooing {
+            padding-top: 100px;
+            border: 15px;
+            height: 500px;
+            width: 350px;
+
         }
     }
