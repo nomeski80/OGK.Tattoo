@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    /*geberal project styles*/
+    /*general project styles*/
     font-family: quicksand, sans-serif;
     font-weight: 300;
     background-color: #110F0E;
@@ -148,12 +148,11 @@ main {
     line-height: 30px;
 }
 
-#jack_tattooing {
-    padding-top: 100px;
-    border: 15px;
-    height: 400px;
-    width: 250px;
-
+#jack {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
 }
 
 #opening {
@@ -196,7 +195,10 @@ h3 {
     padding-left: 2rem;
 }
 
-#map {}
+#map {
+    width: 400px;
+    height: 325;
+}
 
 
 /* Style inputs for the questions form */
@@ -274,6 +276,11 @@ footer {
             width: 300px;
 
         }
+
+        #map {
+            width: 450px;
+            height: 375;
+        }
     }
 
     /*media query for tablets and screens 768px and up*/
@@ -301,6 +308,11 @@ footer {
             column-count: 3;
         }
 
+        #map {
+            width: 500px;
+            height: 425px;
+        }
+
     }
 
     /*media query for pc screens 1024px and up*/
@@ -315,5 +327,10 @@ footer {
             height: 500px;
             width: 350px;
 
+        }
+
+        #map {
+            width: 500px;
+            height: 425px;
         }
     }
