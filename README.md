@@ -105,7 +105,7 @@ I have used a HTML validator [https://validator.w3.org/nu/#textarea], a CSS vali
 HTML tool showed me no errors on all three html pages.
 <img src="assets/images/cssvalidation.png" alt = "screenshot of the css validator">
 The CSS tool continued to show one error of a Parse Error. However, when I tried to resolve it there continued to show error. 
-<img src="assets/images/html.wavetool.png" alt = "screenshot of the wave tool">
+<img src="assets/images/wavetool.png" alt = "screenshot of the wave tool">
 The wave tool continued to show one error of an empty form label but when I checked the error I could not see why. 
 
 # lighthouse checker
