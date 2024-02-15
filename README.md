@@ -45,7 +45,7 @@ When planning out the site I used a mixture of Google slides [https://docs.googl
 
 ## General features
 
-Navigation bar and menu, logo and images, responsive menu and images to react to the users device, map to show where the shop is and links to their social media pages.
+Navigation bar and menu, logo and images, responsive menu and images to react to the users device, the OGK logo as the favicon, a map to show where the shop is and links to their social media pages.
 
 ## Future features
 
