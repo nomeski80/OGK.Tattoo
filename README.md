@@ -83,10 +83,10 @@ The bars for the menu stick to the logo and I can not yet move them to the right
 When adding the other pages, I had to delete a lot of the content that was already there so I could copy over the basic structure. This wasn't a big issue as the content was all overlapping and not clear. So starting that section again made more sense than fiddling around.
 <img src="assets/images/Screenshot.homepage.devtool.png" alt= "screenshot of projects with overlaps">
 
-I had forgotten to change the toggle from X to bars icon in the other pages. Adjustment made.
+I had forgotten to change the toggle from X to bars icon  in the other pages. Adjustment made.
 
 Media query for gallery is also not working, watched youtube clip to help my understanding of media queries and their format but still not working yet, making the site unresponsive for different devices. After, I took a break for the night when I check again the next day the media query did work. However the images did not look good and were not centred or in the correct places or showing the main part of the image.
-<img src="assets/images/Screenshot.gallery.notworking.png" alt=" screen shot of the gallery images">
+ <img src="assets/images/Screenshot.gallery.notworking.png" alt=" screen shot of the gallery images">
 
 When saving the images from instagram they saved as a MHTML files. So they did not show up properly on my site. To solve this problem I went back into my folder on my laptop and saved the images again as JPEG files. Further to advice from my mentor I have converted the images to WEBP to enable better quality photos.
 
@@ -96,4 +96,20 @@ To make the gallery images responsive I wanted them to adjust the column count f
 When scrolling down the page the text from the header would overlap the content in the page. I added a background colour for the header and this had helped to make it clean and avoid the messy overlap. of the site is to help to promote the shop and the tattoo artisits' skills.
 
 15/02/24
-I am continuing to have trouble with the formatting of the form and the map on the contact us page. They are overlapping the page boundries and this shortens the footer and makes everything look out of place.
+I am continuing to have trouble with the formatting of the form and the map on the contact us page. They are overlapping the page boundries and this shortens the footer and makes everything look out of plac
+e.
+# Validation
+I have used a HTML validator [https://validator.w3.org/nu/#textarea], a CSS validator [https://jigsaw.w3.org/css-validator/validator] and Wave to check my site for errors [https://wave.webaim.org/]
+
+<img src="assets/images/html.validator.png" alt = "screenshot of the html validator">
+HTML tool showed me no errors on all three html pages.
+<img src="assets/images/cssvalidation.png" alt = "screenshot of the css validator">
+The CSS tool continued to show one error of a Parse Error. However, when I tried to resolve it there continued to show error. 
+<img src="assets/images/html.wavetool.png" alt = "screenshot of the wave tool">
+The wave tool continued to show one error of an empty form label but when I checked the error I could not see why. 
+
+# lighthouse checker
+
+<img src="assets/images/lighthouse1.png" alt = "screenshot of lighthouse check of the homescreen">
+<img src="assets/images/lighthouse2.png" alt = "screenshot of lighthouse check of the gallery">
+<img src="assets/images/lighthouse3.png" alt = "screenshot of lighthouse check of the contact us page">
