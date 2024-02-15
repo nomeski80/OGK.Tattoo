@@ -42,7 +42,7 @@ Perhaps an online booking system could be helpful. Also, more information and de
 I have added descriptions of all images to support with screen readers. 
 
 # Technologies Used
-HTML, CSS , Codeanywhere, Github, Dev tools
+HTML, CSS , Codeanywhere, Github, Dev tools, cloudconvert.com to convert my images to webp. 
 
 
 # Credits
