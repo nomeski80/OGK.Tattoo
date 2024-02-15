@@ -169,7 +169,6 @@ td {
 }
 
 /*gallery*/
-
 #photos {
     padding-top: 5rem;
     clear: both;
@@ -197,14 +196,14 @@ h3 {
 
 #map {
     width: 400px;
-    height: 325;
+    height: 325px;
 }
 
 
 /* Style inputs for the questions form */
 input[type=text],
 select,
-textarea,
+textarea
 {
 width: fit-content;
 height: 25px;
@@ -263,8 +262,8 @@ footer {
         column-count: 1;
     }
 
-    /*media query for large or landscape phones 576px and up*/
-    @me(min-width:576px) {
+/*media query for large or landscape phones 576px and up*/
+    @media screen and (min-width:576px) {
         #photos {
             column-count: 2;
         }
@@ -279,11 +278,11 @@ footer {
 
         #map {
             width: 450px;
-            height: 375;
+            height: 375px;
         }
     }
 
-    /*media query for tablets and screens 768px and up*/
+/*media query for tablets and screens 768px and up*/
     @media screen and (min-width:768px) {
 
         /*header*/
@@ -315,7 +314,7 @@ footer {
 
     }
 
-    /*media query for pc screens 1024px and up*/
+/*media query for pc screens 1024px and up*/
     @media screen and (min-width:1024px) {
         #photos {
             column-count: 4;
@@ -326,7 +325,6 @@ footer {
             border: 15px;
             height: 500px;
             width: 350px;
-
         }
 
         #map {
@@ -334,3 +332,5 @@ footer {
             height: 425px;
         }
     }
+        
+    
