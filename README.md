@@ -2,9 +2,9 @@
 ## Welcome to Project 1
 This is my first website for my Code Institute Full stack developer course. I have decided to create a website with its main purpose to promote a friend's tattoo studio. Here is a link to the deployed site [https://nomeski80.github.io/OGK.Tattoo/index.html]. 
 
-The OGK Tattoo website is a 3 page responsive site that users will be able to view from all media devices. The purpose of the site is to promote the tattoo shop and increase the owner’s online presence and artistic portfolio. The website user will be able to gain an idea as to the ethos of the shop and the artist's work. They will also be able to sign up to be added to the shop's mailing and promotions list. 
+The OGK Tattoo website is a 3 page responsive site that users will be able to view from all media devices. The purpose of the site is to promote the tattoo shop and increase the owner’s online presence and artistic portfolio. The website user will be able to gain an idea as to the ethos of the shop and the artist's work. They will also be able to contact the tatoo shop to ask questions. 
 ## Homepage
-<img src="assets/images/screenshot.homescreen" alt="screenshot of the homepage">
+<img src="assets/images/screenshot.homepage.webp" alt="screenshot of the homepage">
 
 ## Get in touch page
 <img src="assets/images/Screenshot.contactpage.webp" alt="screenshot of get intouch page">
@@ -42,27 +42,27 @@ Perhaps an online booking system could be helpful. Also, more information and de
 I have added descriptions of all images to support with screen readers. 
 
 # Technologies Used
-HTML, CSS , Codeanywhere, Github, Dev tools, cloudconvert.com to convert my images to webp. 
+HTML, CSS , Codeanywhere, Github, Dev tools, cloudconvert.com to convert my images to webp and Favicon.io. 
 
 
 # Credits
 
-I started off the project relying heavily on the tutorials from the Love Running project but after taling with my mentor and exploring other website and YouTube tutorials I gained a little more confidence in trying out tools like flex box the Box model independently to fit my website, rather than trying to fit new content into the love running set up. 
+I started off the project relying heavily on the tutorials from the Love Running project but after talking with my mentor and exploring other websites and YouTube tutorials I gained a little more confidence in trying out tools like flex box the Box model independently to fit my website, rather than trying to fit new content into the love running set up. 
 
 
 Structure for this README doc was taken from readme-examples [https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#user-experience-ux]
 
 All art work and images have come from Jack the tattoo and grafiti aritst as his own work. [https://www.instagram.com/ogk.tattoos/] most from his public page and some sent directly to me from him. 
 
-## screen shots from stages throughout the project
+I also used w3schools.com and the code institude tutorials to help me with my understanding of forms.
 
 ## what went well, what I managed to fix and what I'm still not happy with
-Early on in the project I had trouble with CodeAnywhere but I understand this was happening for lots of people. Since then, it has been working much more smoothly and quickly. I did concided moving over to GitPod but since it has been working fince now I have stuck with CodeAnywhere
+Early on in the project I had trouble with CodeAnywhere but I understand this was happening for lots of people. Since then, it has been working much more smoothly and quickly. I did concided moving over to GitPod but since it has been working fince now I have stuck with CodeAnywhere.
 
 3/2/24
-Menu items do not stay untoggled when on th screens.
+Menu items do not stay untoggled when on the screens.
 
-Media query says display:block it still works as a toggle.
+Media query says display:block but it still works as a toggle.
 The bars for the menu stick to the logo and I can not yet move them to the right. I have tried dev tools to play with padding and flex. I have tried right:0. Can not seem to get it to work.
 <img src="assets/images/Screenshot 2024-02-12 8.19.16 AM.png" alt=" screen shot of the nav bar">
 
@@ -74,7 +74,7 @@ I had forgotten to change the toggle from X to bars icon  in the other pages. Ad
 Media query for gallery is also not working, watched youtube clip to help my understanding of media queries and their format but still not working yet, making the site unresponsive for different devices. After, I took a break for the night when I check again the next day the media query did work. However the images did not look good and were not centred or in the correct places or showing the main part of the image.
  <img src="assets/images/Screenshot 2024-02-07 9.27.34 PM.png" alt=" screen shot of the gallery images">
 
-When saving the images from instagram they saved as a MHTML files. So they did not show up properly on my site. To solve this problem I went back into my folder on my laptop and saved the images again as JPEG files. 
+When saving the images from instagram they saved as a MHTML files. So they did not show up properly on my site. To solve this problem I went back into my folder on my laptop and saved the images again as JPEG files. Further to advice from my mentor I have converted the images to WEBP to enable better quality photos. 
 
 
 12/02/24
