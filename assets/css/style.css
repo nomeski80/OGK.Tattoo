@@ -141,18 +141,21 @@ main {
 }
 
 #welcome {
+    padding:5px;
     margin: 15px;
     font-family: quicksand;
     height: 300px;
+    letter-spacing: 2px;
+    line-height: 30px;
 }
 
 #jack_tattooing {
-    padding-top: 100px;
+   padding-top: 100px;
     border: 15px;
     height: 600px;
     width: 100%;
-    background: url(../images/jack.tattooing.jpeg) no-repeat center center;
-    border-radius: 50px;
+    background: url(../images/jack.tattooing.webp) no-repeat center center;
+   
 }
 
 #opening {
@@ -196,30 +199,32 @@ main {
 }
 
 #map {
-   box-sizing: border-box;
-   margin-top: 2em; 
-   margin-left: 2em;
+  
 }
 
-/* Style inputs with type="text", select elements and textareas */
+
+/* Style inputs for the questions form */
 input[type=text],
 select,
-textarea {
-    width:50%;
+textarea, 
+ {
+    width:fit-content;
+    height: 25px;
     padding: 12px;
-    border: 1px solid #3a3a3a;
+    border: 1px solid #fafafa;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+    margin: 5px 0 20px 0;
+    padding: 0 5px;
 }
+
+
 
 label {
     color:#3a3a3a;
 }
 
-/* Style the submit button with a specific background color etc */
+/* Style for the submit button  */
 #send, input[type=submit] {
     background-color: #04AA6D;
     color: #49423a;
@@ -228,7 +233,7 @@ label {
     border-radius: 4px;
 }
 
-/* Add a background color and some padding around the form */
+
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -251,6 +256,12 @@ footer {
 #social-networks i {
     font-size: 160%;
     color: #49423a;
+}
+
+/*media query for phones 375px and up*/
+@media screen and (min-width:375px) {
+#photos {
+        column-count: 1;
 }
 
 /*media query for large or landscape phones 576px and up*/
