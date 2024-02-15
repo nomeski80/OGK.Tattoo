@@ -39,58 +39,45 @@
         </ul>
       </nav>
     </header>
-    <!--main content-->
+<!--main content-->
     <main>
       <div id="get_in_touch">
         <h1>Get in touch</h1>
+        <!--address and google map to locate shop-->
         <h3>St Mary's Pl, Shrewsbury SY1 1DL</h3>
         <div id="map">
-          <iframe
-            src="https:/http://tinyurl.com/36bs7dpz/"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9669.234612858138!2d-2.7506878!3d52.708574!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a9fa0d8a84a69%3A0xdcc0e15ea85a0954!2sOGK%20TATTOOS!5e0!3m2!1sen!2suk!4v1707988078024!5m2!1sen!2suk"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <br />
+
+<!--contact us form-->
         <h1>Any Questions?</h1>
 
-        <br />
-        <section id="contact">
-          <form id="contact_us">
-            <label for="first_name">First Name</label>
-            <input type="text" />
-
-            <br />
-            <label for="last_name">Last Name</label>
-            <input type="text" />
-
-            <br />
+        <div class="container">
+            <form action="action_page.php">
+        
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="firstname" placeholder="Your name..">
+        
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
             <label for="number">Phone number</label>
-            <input type="number" required />
-
-            <br />
+            <input type="number" id="number" name="number" required />
+            
             <label for="email">Email</label>
-            <input type="email" required />
+            <input type="email" id="email" name="email" required />
 
-            <br />
             <label>Your Question</label>
-            <br />
-            <textarea
-              id="question"
-              rows="10"
-              cols="50"
-              placeholder="Your question"
-            ></textarea>
+            <textarea id="question" rows="10" cols="50" placeholder="Your question"></textarea>
+    
             <button id="send" type="submit" class="submit">
-              <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-paper-plane"></i>
             </button>
-          </form>
-        </section>
-      </div>
+    </form>
+        </div>
     </main>
 
     <!--footer-->

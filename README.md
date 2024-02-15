@@ -3,13 +3,13 @@
 This is my first website for my Code Institute Full stack developer course. I have decided to create a website with its main purpose to promote a friend's tattoo studio. Here is a link to the deployed site [https://nomeski80.github.io/OGK.Tattoo/index.html]. 
 
 The OGK Tattoo website is a 3 page responsive site that users will be able to view from all media devices. The purpose of the site is to promote the tattoo shop and increase the owner’s online presence and artistic portfolio. The website user will be able to gain an idea as to the ethos of the shop and the artist's work. They will also be able to sign up to be added to the shop's mailing and promotions list. 
-Homepage
+## Homepage
 <img src="assets/images/homescreenss.webp" alt="screenshot of the homepage">
 
-Get in touch page
+## Get in touch page
 <img src="assets/images/contactpagess.webp" alt="screenshot of get intouch page">
 
-Gallery
+## Gallery
 <img src="assets/images/galleryss.webp" alt="screenshot of gallery">
 
 ## User stories
@@ -19,7 +19,7 @@ Tattoos are big commitments and some people will want to do a lot of research be
 
 ## Colour scheme
 
-I decided on my colour scheme by taking the OGK logo and inputting it into [https://coolors.co/] This helped me to create a simple palatte that would match and be consistent throughout the site. 
+I decided on my colour scheme by taking the OGK logo and inputting it into [https://coolors.co/] This helped me to create a simple palatte that would match and be consistent throughout the site.
 
 ## Typography
 To create a clean and consistent look, I selected 2 fonts from Google fonts [https://fonts.google.com/] . I picked ubuntu and quicksand as I felt these were clear and easy to read. I also added a backup font of sans-serif to make sure text would be comapatible on all devices. 
@@ -60,7 +60,7 @@ All art work and images have come from Jack the tattoo and grafiti aritst as his
 Early on in the project I had trouble with CodeAnywhere but I understand this was happening for lots of people. Since then, it has been working much more smoothly and quickly. I did concided moving over to GitPod but since it has been working fince now I have stuck with CodeAnywhere
 
 3/2/24
-Menu items do not stay untoggled when on the bigger screens.
+Menu items do not stay untoggled when on th screens.
 
 Media query says display:block it still works as a toggle.
 The bars for the menu stick to the logo and I can not yet move them to the right. I have tried dev tools to play with padding and flex. I have tried right:0. Can not seem to get it to work.

@@ -70,7 +70,7 @@ h2 {
 }
 
 #menu li {
-    
+
     list-style-type: none;
     margin-right: 30px;
 
@@ -86,8 +86,6 @@ h2 {
     line-height: 75px;
 }
 
-
-
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -99,15 +97,11 @@ h2 {
 /*Nav bar styles with drop down toggle*/
 nav {
     position: absolute;
-
-
     left: 0;
     padding: 0%;
     display: none;
     top: 100%;
     background-color: #3a3a3a;
-
-
 }
 
 /*nav toggle*/
@@ -130,8 +124,6 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 75px;
-
-
 }
 
 .flex-container {
@@ -164,7 +156,6 @@ main {
 }
 
 #opening {
-
     width: 100%;
     padding: 15px;
 }
@@ -200,28 +191,47 @@ main {
 
 #get_in_touch h1 {
 
-    padding-top: 50px;
+    padding-top: 5rem;
+    padding-left: 5rem;
 }
 
 #map {
-    
+    width: 100%;
 
 }
 
-#contact #contact_us {
-    padding: 50px;
-    border-radius: 20px;
-    
-   
-
-
-}
-
-#send {
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3a3a3a;
     border-radius: 4px;
-    background-color: #3a3a3a;
-    color: white;
-    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+label {
+    color:#3a3a3a;
+}
+
+/* Style the submit button with a specific background color etc */
+#send, input[type=submit] {
+    background-color: #04AA6D;
+    color: #49423a;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 /*footer*/
@@ -243,15 +253,12 @@ footer {
 }
 
 /*media query for large or landscape phones 576px and up*/
-@media (min-width:576px) {
+@me(min-width:576px) {
     #photos {
         column-count: 2;
-
-
     }
+
 }
-
-
 
 /*media query for tablets and screens 768px and up*/
 @media screen and (min-width:768px) {
@@ -270,22 +277,18 @@ footer {
         background-color: #3a3a3a;
     }
 
-   
-
     .nav-toggle-label {
         display: none;
     }
 
-
     #photos {
         column-count: 3;
-
     }
 
 }
 
-/*media query for pc screens 992px and up*/
-@media screen and (min-width:992px) {
+/*media query for pc screens 1024px and up*/
+@media screen and (min-width:1024px) {
     #photos {
         column-count: 4;
     }
