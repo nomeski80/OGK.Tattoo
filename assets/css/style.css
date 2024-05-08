@@ -87,11 +87,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #fafafa;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #fafafa;
 }
 
 /*Nav bar styles with drop down toggle*/
@@ -99,7 +99,7 @@ nav {
     position: absolute;
     left: 0;
     padding: 0%;
-    display: none;
+    #display: none;
     top: 100%;
     background-color: #3a3a3a;
 }
@@ -256,11 +256,13 @@ footer {
     color: #49423a;
 }
 
-/*media query for phones 375px and up*/
-@media screen and (min-width:375px) {
+/*media query for phones 320px and up*/
+@media screen and (min-width:320px) {
+    nav
     #photos {
         column-count: 1;
     }
+}
 
 /*media query for large or landscape phones 576px and up*/
     @media screen and (min-width:576px) {
