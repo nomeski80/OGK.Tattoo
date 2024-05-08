@@ -22,7 +22,8 @@ body {
     font-weight: 300;
     background-color: #110F0E;
     color: #FAF8F8;
-    /*Make main element take up the whole space to ush the footer down*/
+
+    /*Make main element take up the whole space to push the footer down*/
     flex: 1 0 auto;
 }
 
@@ -35,7 +36,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     background-color: #3a3a3a;
 }
 
@@ -66,14 +67,13 @@ h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    list-style-type: none;
 
 }
 
 #menu li {
 
-    list-style-type: none;
-    margin-right: 30px;
-
+    margin-bottom: 1em;
 }
 
 #menu a {
@@ -97,11 +97,12 @@ h2 {
 /*Nav bar styles with drop down toggle*/
 nav {
     position: absolute;
-    left: 0;
-    padding: 0%;
-    #display: none;
-    top: 100%;
     background-color: #3a3a3a;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
 }
 
 /*nav toggle*/
@@ -115,7 +116,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    right: 0;
+    color: #FAF8F8;
 }
 
 /*main content*/
@@ -123,7 +124,7 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 75px;
+    margin-top: 47px;
 }
 
 .flex-container {
@@ -150,9 +151,9 @@ main {
 
 #jack {
     display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #opening {
@@ -189,30 +190,29 @@ main {
 
 #get_in_touch h1,
 h3 {
-
     padding-top: 2rem;
     padding-left: 2rem;
 }
 
 #map {
-    width: 400px;
-    height: 325px;
+    width: 100%;
+    height: 100%;
+    padding: 2rem:
 }
 
 
 /* Style inputs for the questions form */
 input[type=text],
 select,
-textarea
-{
-width: fit-content;
-height: 25px;
-padding: 12px;
-border: 1px solid #fafafa;
-border-radius: 4px;
-box-sizing: border-box;
-margin: 5px 0 20px 0;
-padding: 0 5px;
+textarea {
+    width: fit-content;
+    height: 25px;
+    padding: 12px;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 5px 0 20px 0;
+    padding: 0 5px;
 }
 
 
@@ -258,81 +258,75 @@ footer {
 
 /*media query for phones 320px and up*/
 @media screen and (min-width:320px) {
-    nav
+
+    .nav-toggle-label {
+        display: block;
+    }
+
     #photos {
         column-count: 1;
     }
+
+
 }
 
 /*media query for large or landscape phones 576px and up*/
-    @media screen and (min-width:576px) {
-        #photos {
-            column-count: 2;
-        }
-
-        #jack_tattooing {
-            padding-top: 100px;
-            border: 15px;
-            height: 450px;
-            width: 300px;
-
-        }
-
-        #map {
-            width: 450px;
-            height: 375px;
-        }
+@media screen and (min-width:576px) {
+    #photos {
+        column-count: 2;
     }
+
+    #jack_tattooing {
+        padding-top: 100px;
+        border: 15px;
+        height: 450px;
+        width: 300px;
+
+    }
+
+
+}
 
 /*media query for tablets and screens 768px and up*/
-    @media screen and (min-width:768px) {
+@media screen and (min-width:768px) {
 
-        /*header*/
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-        }
-
-        #menu {
-            display: flex;
-            background-color: #3a3a3a;
-        }
-
-        .nav-toggle-label {
-            display: none;
-        }
-
-        #photos {
-            column-count: 3;
-        }
-
-        #map {
-            width: 500px;
-            height: 425px;
-        }
-
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
+
+    #menu {
+        display: flex;
+        background-color: #3a3a3a;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+
+
+}
 
 /*media query for pc screens 1024px and up*/
-    @media screen and (min-width:1024px) {
-        #photos {
-            column-count: 4;
-        }
-
-        #jack_tattooing {
-            padding-top: 100px;
-            border: 15px;
-            height: 500px;
-            width: 350px;
-        }
-
-        #map {
-            width: 500px;
-            height: 425px;
-        }
+@media screen and (min-width:1024px) {
+    #photos {
+        column-count: 4;
     }
-        
-    
+
+    #jack_tattooing {
+        padding-top: 100px;
+        border: 15px;
+        height: 500px;
+        width: 350px;
+    }
+
+
+}
