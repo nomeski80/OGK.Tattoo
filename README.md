@@ -12,11 +12,11 @@ The OGK Tattoo website is a 3 page responsive site that users will be able to vi
 
 ## Get in touch page
 
-<img src="assets/images/Screenshot.contactpage.webp" alt="screenshot of get intouch page">
+<img src="assets/images/screenshot.contactpage.webp" alt="screenshot of get intouch page">
 
 ## Gallery
 
-<img src="assets/images/SSgallery.webp" alt="screenshot of gallery">
+<img src="assets/images/ss.gallery.webpgallery.webp" alt="screenshot of gallery">
 
 ## User stories
 
@@ -81,12 +81,12 @@ The bars for the menu stick to the logo and I can not yet move them to the right
 <img src="assets/images/screenshot.homepage.overlapping.png" alt=" screen shot of the nav bar">
 
 When adding the other pages, I had to delete a lot of the content that was already there so I could copy over the basic structure. This wasn't a big issue as the content was all overlapping and not clear. So starting that section again made more sense than fiddling around.
-<img src="assets/images/Screenshot.homepage.devtool.png" alt= "screenshot of projects with overlaps">
+<img src="assets/images/screenshot.homepage.devtool.png" alt= "screenshot of projects with overlaps">
 
 I had forgotten to change the toggle from X to bars icon  in the other pages. Adjustment made.
 
 Media query for gallery is also not working, watched youtube clip to help my understanding of media queries and their format but still not working yet, making the site unresponsive for different devices. After, I took a break for the night when I check again the next day the media query did work. However the images did not look good and were not centred or in the correct places or showing the main part of the image.
- <img src="assets/images/Screenshot.gallery.notworking.png" alt=" screen shot of the gallery images">
+ <img src="assets/images/screenshot.gallery.notworking.png" alt=" screen shot of the gallery images">
 
 When saving the images from instagram they saved as a MHTML files. So they did not show up properly on my site. To solve this problem I went back into my folder on my laptop and saved the images again as JPEG files. Further to advice from my mentor I have converted the images to WEBP to enable better quality photos.
 
