@@ -159,7 +159,6 @@ main {
 #opening {
     width: 100%;
     padding: 15px;
-
 }
 
 table,
@@ -186,6 +185,7 @@ td {
 /*Contact page*/
 
 #get_in_touch {
+    padding-top: 5rem;
     display: column;
     flex: auto;
     padding: 2rem;
