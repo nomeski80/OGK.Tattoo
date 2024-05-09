@@ -1,4 +1,4 @@
-/*google fonts inport*/
+/*google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Ubuntu:ital@1&display=swap');
 
 
@@ -194,11 +194,12 @@ h3 {
     padding-left: 2rem;
 }
 
-#map {
+/* #map {
     width: 100%;
     height: 100%;
-    padding: 2rem:
-}
+    padding-left: 2rem;
+    padding-right: 2rem;
+} */
 
 
 /* Style inputs for the questions form */
@@ -212,7 +213,8 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
     margin: 5px 0 20px 0;
-    padding: 0 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 
@@ -256,19 +258,7 @@ footer {
     color: #49423a;
 }
 
-/*media query for phones 320px and up*/
-@media screen and (min-width:320px) {
 
-    .nav-toggle-label {
-        display: block;
-    }
-
-    #photos {
-        column-count: 1;
-    }
-
-
-}
 
 /*media query for large or landscape phones 576px and up*/
 @media screen and (min-width:576px) {
@@ -294,29 +284,50 @@ footer {
     nav {
         display: block;
         position: relative;
-        box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
     }
 
     #menu {
         display: flex;
-        background-color: #3a3a3a;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
 
+    #logo {
+        font-size: 150%;
+        line-height: 50px;
+        margin: 0 0.5rem;
+    }
+
+
     #photos {
         column-count: 3;
     }
+    /* set pixil width in media queries  */
 
+    /* #map {
+        width: 150%;
+        height:150%;
+    } */
 
 }
 
 /*media query for pc screens 1024px and up*/
 @media screen and (min-width:1024px) {
+
+    #logo {
+        font-size: 300%;
+    }
+
+
+
     #photos {
         column-count: 4;
     }
@@ -328,5 +339,8 @@ footer {
         width: 350px;
     }
 
-
+    /* #map {
+        width: 200%;
+        height:200%;
+    } */
 }
