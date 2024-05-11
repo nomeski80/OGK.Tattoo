@@ -186,7 +186,6 @@ td {
 
 #get_in_touch {
     padding-top: 5rem;
-    display: column;
     flex: auto;
     padding: 2rem;
 }
