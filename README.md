@@ -1,6 +1,7 @@
 # OGK Tattoos
 
 The OGK Tattoo website is a 3 page responsive site that users will be able to view from all media devices. The website user will be able to gain an idea as to the ethos of the shop and the artist's work. 
+[Link to deployed OGK Tattoos website](https://nomeski80.github.io/OGKTattoo/index.html)
 
 ![OGK.Tattoos](assets/images/responsive.home.png)
 
